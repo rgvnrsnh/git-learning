@@ -9,8 +9,13 @@ git inint -> to initalise git.
 git add --a -> to add all files to staging.
 git commit -m "your message" -> to committ all changes.
 git log -> to check all previous commits.
+git rm --cached filename.extension -> to move file to untracked status.
+
 git diff -> show difference in staging area and modified file if there any present.
 git diff --staged -> show difference in btwn last commit and you current staging area.
+
+git rm filename.txt -> to delete the file.
+git mv filename.txt newfilename.txt -> to rename the file.
 rm -rf .git -> to delete git folder and removing entire git from it.
 
 git clone linkofrepo -> to copy entire repo to local system.
