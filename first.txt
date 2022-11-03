@@ -1,0 +1,22 @@
+commands:->
+
+pwd -> for present working directory.
+ls -> list all files.
+touch filename.extension -> to create empty file.
+
+git status -> to check status
+git inint -> to initalise git.
+git add --a -> to add all files to staging.
+git commit -m "your message" -> to committ all changes.
+git log -> to check all previous commits.
+rm -rf .git -> to delete git folder and removing entire git from it.
+
+git clone linkofrepo -> to copy entire repo to local system.
+
+
+
+this is version 1 of the project
+add this as well in 2nd commit
+
+
+
