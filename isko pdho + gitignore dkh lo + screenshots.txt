@@ -1,5 +1,5 @@
 commands:->
-
+q -> to exit terminals current execute.
 pwd -> for present working directory.
 ls -> list all files.
 touch filename.extension -> to create empty file.
@@ -8,7 +8,11 @@ git status -> to check status
 git init -> to initialize git.
 git add --a -> to add all files to staging.
 git commit -m "your message" -> to commit all changes.
+
 git log -> to check all previous commits.
+git log -p -3 -> shows all 3 recent commits alongwith what changes made in that commit. 
+git log --since.2days/2weeks/etc -> show committs of given time.
+
 git rm --cached filename.extension -> to move file to untracked status.
 
 git diff -> show difference in staging area and modified file if there any present.
@@ -18,12 +22,34 @@ git rm filename.txt -> to delete the file.
 git mv filename.txt newfilename.txt -> to rename the file.
 rm -rf .git -> to delete git folder and removing entire git from it.
 
-git clone linkofrepo -> to copy entire repo to local system.
+git clone linkofrepo yournewfoldername -> to copy entire repo to local system.
+
+ git checkout -- filename.extension -> to match/restore the current file data  to its previous commit
+ git checkout -f -> to restore the entire directory to prev commit.
+
+branching commands:->
+
+git branch -> to show all branches.
+git branch --merged -> shows branches that are already merged to master.
+git branch --no-merged -> shows branches that are not merged to master.
+
+git checkout -b newbranchname -> to add a new branch. 
+git checkout oldbranchname -> change directory to last commit of oldbranchname.
+
+git merge newbranchname -> to merge the newbranchname to master branch.
+
+git branch -D branchname -> to delete the branch.
 
 
+pushing to github :-> 
+create repo at github & it will automatically give you commands simply copy paste and run it.
 
-this is version 1 of the project
-add this as well in 2nd commit
+
+to push branches to github :->(they dont by default get pushed)
+
+git push origin branchname -> to add branch to github.
+git push -d origin branchname -> to remove branch from github.
+
 
 
 
