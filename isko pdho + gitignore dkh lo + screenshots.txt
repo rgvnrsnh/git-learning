@@ -5,9 +5,9 @@ ls -> list all files.
 touch filename.extension -> to create empty file.
 
 git status -> to check status
-git inint -> to initalise git.
+git init -> to initialize git.
 git add --a -> to add all files to staging.
-git commit -m "your message" -> to committ all changes.
+git commit -m "your message" -> to commit all changes.
 git log -> to check all previous commits.
 git rm --cached filename.extension -> to move file to untracked status.
 
